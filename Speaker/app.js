@@ -43,7 +43,7 @@ function readOutLoud(message){
         const finalText = greetings[Math.floor(Math.random() * greetings.length)]
         speech.text = finalText  
     }
-    if(message.includes(('погода')||'пагода')){
+    if(message.includes('погода')){
         const finalText = weather[Math.floor(Math.random() * greetings.length)]
         speech.text = finalText  
     }
